@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+:root{
+    --primarycolor: #1b1f24;
+    --textcolor:#12bdff;
+    --primaryfont:font-family: 'Mooli', sans-serif;
+
+}
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:var(--primarycolor);
+    display: flex;
+    justify-content: space-around;
+    padding:20px 10px;  
+    color:white;
+}
+.logo{
+    margin-top: 15px;
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    color:var(--textcolor);
+    
+}
+.logo:hover{
+    color:white;
+    cursor:pointer;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 50px;
+    
+}
+header ul li{
+    padding:20px 10px;  
+    list-style: none;
+    
+
+}
+header button{
+    background-color:var(--primarycolor);
+    border-radius: 8px 0px 8px 0px;
+    padding:9px;
+    color:#FFF;
+    border:1px solid blue;
+    margin-top: 15px;
+
+
+}
+header button:hover{
+    background-color: var(--textcolor);
+    color:var(--primarycolor);
+    transition-delay: 0.5ms;
+    cursor: pointer;
+}
+header ul li a:hover{
+    color:#12bdff;
+    font-family: var(--primaryfont);
+
+}
+
+/* body section starting */
+section.hero-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b1f24;
+    color: white;
+    align-items: center;
+    padding:20px 120px 0 120px;
+
+   
+}
+.hero-section__title{
+
+    font-size: 48px;
+    font-weight: 500;
+}
+ul.social-icons{
+    list-style: none;
+    color:white;
+    display: flex;
+}
+.hero-section__desc{
+color:azure;
+line-height: 30px;
+font-family: var(--primaryfont);
+font-size: 20px ;
+}
+/* section in logo design */
+section ul li>a{
+    color: #FFF;
+    text-decoration: none;
+    margin:20px 10px 20px 10px;
+
+}
+section ul li>a.fa-facebook:hover{
+    color:#3b5998;
+}
+section ul li>a.fa-instagram:hover{
+    color:  #fa7e1e;
+}
+section ul li>a.fa-linkedin:hover{
+    color:#0072b1;
+}
+section ul li>a.fa-twitter:hover{
+    color:#0072b1;
+}
+/* end ......section in logo design */
+/* here start button styleing */
+.btn{
+    padding: 10px;
+    background-color: var(--textcolor);
+    color:white;
+    border:0.8px solid blue;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color:black;
+    
+}
