@@ -17,32 +17,43 @@ header{
     justify-content: space-around;
     padding:20px 10px;  
     color:white;
+    
 }
 .logo{
-    margin-top: 15px;
+    
     font-family: var(--primaryfont);
     font-weight: bold;
     color:var(--textcolor);
-    
+    text-decoration: underline;
+}
+.logo::first-letter {
+    font-size: 2em;
+    color: white;
 }
 .logo:hover{
     color:white;
     cursor:pointer;
 
 }
+.navigation-align{
+
+width: 250px;   
+}
 
 header ul {
     display: flex;
     justify-content: space-around;
+    align-content: center;
+    margin-top: 10px;
 }
 header li a{
     text-decoration: none;
     color:white;
-    padding-left: 50px;
+    
     
 }
 header ul li{
-    padding:20px 10px;  
+    
     list-style: none;
     
 
@@ -52,8 +63,8 @@ header button{
     border-radius: 8px 0px 8px 0px;
     padding:9px;
     color:#FFF;
-    border:1px solid blue;
-    margin-top: 15px;
+    border:1px solid var(--textcolor);
+    
 
 
 }
@@ -77,8 +88,13 @@ section.hero-section{
     color: white;
     align-items: center;
     padding:20px 120px 0 120px;
+    
 
    
+}
+img{
+    width: 600;
+    height: 600px;
 }
 .hero-section__title{
 
@@ -121,8 +137,9 @@ section ul li>a.fa-twitter:hover{
     padding: 10px;
     background-color: var(--textcolor);
     color:white;
-    border:0.8px solid blue;
+    border:1px solid var(--textcolor);
     border-radius: 5px;
+    margin-right: 10px;
 
 }
 .btn:hover{
